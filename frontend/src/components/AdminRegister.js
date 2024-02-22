@@ -32,7 +32,7 @@ const Register = () => {
                     progress: undefined,
                     theme: "light",
                 });
-                navigate("/")
+                navigate("/home")
             }
         } catch (error) {
             toast.error('Wrong Admin key or Already Registerd !', {

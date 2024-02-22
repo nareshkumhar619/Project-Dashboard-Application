@@ -34,7 +34,7 @@ const AdminLogin = () => {
           progress: undefined,
           theme: "light",
         });
-        navigate("/")
+        navigate("/home")
       }
     } catch (error) {
       toast.error('Invalid credintial !', {

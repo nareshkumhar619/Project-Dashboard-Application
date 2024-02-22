@@ -13,9 +13,9 @@ function App() {
       <ToastContainer />
       <Navbar/>
       <Routes>
-        <Route path='/admin-register' element={<AdminRegister />} />
+        <Route path='/' element={<AdminRegister />} />
         <Route path='/admin-login' element={<AdminLogin />} />
-        <Route path='/' element={<Mainpage/>} />
+        <Route path='/home' element={<Mainpage/>} />
       </Routes>
 
     </div>
